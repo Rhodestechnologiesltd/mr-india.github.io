@@ -1,4 +1,77 @@
-<?php include('header.php')?>
+<!-- header -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">       
+        <link href="assets/css/style.css" rel="stylesheet">     
+        <link href="assets/css/slick.css" rel="stylesheet">  
+        <link href="assets/css/all.min.css" rel="stylesheet">
+        <title>Mr India</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a href="#">FAQ</a>
+                            <a href="#">PARTNER WITH MR INDIA</a>
+                            <a href="#">T&C</a>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="navbar-wrapper">         
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg p-0">
+                                <div class="logo">
+                                    <a href="/" class="navbar-brand p-0"><img src="assets/img/logo.png" class="img-fluid" alt=""></a>
+                                </div>
+                                <button class="navbar-toggler ml-auto" type="button" data-toggle="offcanvas" data-target="#header-main-nav" aria-controls="header-main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="icon-bar top-bar"></span>
+                                    <span class="icon-bar middle-bar"></span>
+                                    <span class="icon-bar bottom-bar"></span>
+                                    <span class="sr-only">Toggle navigation</span>
+                                </button>
+                                <div class="offcanvas-collapse d-lg-flex align-items-center navbar-collapse" id="header-main-nav">                               
+                                    <div class="ml-auto p-3">                                        
+                                        <div class="d-lg-none logo text-center">
+                                            <a href="/"><img src="assets/img/logo.png" class="img-fluid" alt=""></a>
+                                        </div>
+                                        <div class="header-nav-links d-inline-block ml-auto">
+                                            <a href="#">How it works</a></li>
+                                            <a href="#">Services</a></li>
+                                            <a href="#">
+                                                <span>Shipping Information</span>
+                                                <div class="d-none">
+                                                    <li><a href="#">1</a></li>
+                                                    <li><a href="#">2</a></li>
+                                                    <li><a href="#">3</a></li>
+                                                </div>
+                                            </a>
+                                            <a href="#">Shop with Mr India</a>
+                                        </div>
+                                        <a href="#" class="ml-auto btn btn-orange ml-lg-3">Sign In</a>      
+                                    </div>                          
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </header>
+        <div class="main-content">
+
+<!-- End of header -->
+
+<!-- home page section -->
             <section class="hp-sect1">
                 <div class="container">
                     <div class="row align-items-center">
@@ -285,4 +358,94 @@
                     </div>
                 </div>
             </section>
-<?php include('footer.php')?>
+
+<!--End of Home page  -->
+</div>
+        <footer class="sect-p">
+            <div class="container footer-top">
+                <div class="row">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="assets/img/logo.png" class="img-fluid mb-3" alt=""><br>
+                        Address Name<br>
+                        Street Name<br>
+                        Phone: +230 123 4567<br>                        
+                        Fax: +230 123 4567
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="footer-nav-links">
+                            <li>
+                                <a href="#">How Mr India Works</a>
+                            </li>
+                            <li>
+                                <a href="#">Why choose Mr India</a>
+                            </li>
+                            <li>
+                                <a href="#">Shipping & Pricing for your country</a>
+                            </li>
+                            <li>
+                                <a href="#">Sign Up</a>
+                            </li>
+                            <li>
+                                <a href="#">What you cannot ship</a>
+                            </li>
+                            <li>
+                                <a href="#">Frequently asked questions</a>
+                            </li>
+                            <li>
+                                <a href="#">Your privacy rights</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">                        
+                        <ul class="footer-nav-links">
+                            <li>
+                                <a href="#">About Mr India</a>
+                            </li>
+                            <li>
+                                <a href="#">Mr India Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#">News & Press</a>
+                            </li>
+                            <li>
+                                <a href="#">Careers at Mr India.com</a>
+                            </li>
+                            <li>
+                                <a href="#">Partner with Mr India</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="link-blue">Facebook</a><br>
+                        <div class="link-blue">4.4 out out 5 based on over 8,140 users</div>
+                        <a href="#" class="link-blue">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="txt-footer bg-blue pt-2 pb-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">© GoDigital All Rights Reserved | XML Sitemap</div>
+                    </div>
+                </div>
+            </div>
+            <div class="txt-footer container pt-2">
+                <div class="row">
+                    <div class="col-lg-12">
+                        We use cookies to offer better online experiences. By visiting and using Mr India.com, you consent to our use of cookies. Learn about your options, rights and more by reading our <a href="#">Terms & Conditions and Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>  
+        <script src="assets/js/slick.min.js"></script>   
+        <script src="assets/js/scripts.js"></script>  
+    </body>
+</html>
